@@ -1,0 +1,57 @@
+body {
+	width: 8.5in;
+	font-family: "Helvetica", "Bitstream Charter", "Times New Roman";
+}
+h1 {
+	font-size:medium;
+	font-weight:bold;
+	margin-bottom:0px;
+}
+header {
+	text-align:center;
+	margin-bottom:2em;
+}
+.split {
+    width:100%;
+    margin-left: 20px;
+}
+.split > div {
+	display: inline-block;
+	width:30%;
+	text-align:right;
+}
+
+
+.split > div:first-child {
+    text-align:left;
+    width: 70%;
+}
+ul {
+	margin-top:0px;
+}
+.technical td:first-child {
+	padding-left:0px;
+}
+section {
+	margin-bottom:2em;
+}
+.email {
+	unicode-bidi:bidi-override;
+	direction:rtl;
+}
+
+.technical {
+
+    margin-left: 20px;
+}
+
+.company {
+
+    margin-left: 20px;
+}
+
+.work {
+
+    margin-left: 10px;
+    margin-top: 5px;
+}
