@@ -33,7 +33,7 @@ ul {
 	padding-left:0px;
 }
 section {
-	margin-bottom:2em;
+	margin-bottom:5px;
 }
 .email {
 	unicode-bidi:bidi-override;
@@ -46,8 +46,14 @@ section {
 }
 
 .company {
+    margin-left: 10px;
+    height:25px;
+}
 
-    margin-left: 20px;
+.project {
+    margin-left: 10px;
+    height:25px;
+    font-style: italic;
 }
 
 .work {
