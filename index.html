@@ -66,6 +66,7 @@
     <div>
       <span class="project">John the Ripper jumbo robustness improvements</span>
       <ul>
+	<li class="work">Patch AFL to support deferred initialization of fork server with gcc, which speeds up 10x or so.</li>
 	<li class="work">Fuzz John the Ripper jumbo by AFL. Improve the fuzz efficiency by optimizing configuration file and changing source code. There are 50 bugs found by fuzz testing.</li>
 	<li class="work">Implement --fuzz option in John the Ripper jumbo to fuzz functions in each formats. There are 20 bugs found by --fuzz option, and fix some of those bugs.</li>
 	<li class="work">Implement test-full option in John the Ripper jumbo to mimic actual cracking and detect runtime errors.</li>
@@ -79,7 +80,6 @@
     <div>
       <span class="project">Styx for fuzz testing</span>
       <ul>
-	<li class="work">Cooperated with PM to design the kernel of Styx which is a large system.</li>
 	<li class="work">Implement various of features of Styx using C++ under Fedora 18, and have done a lot of programming in network.</li>
 	<li class="work">Encapsulate frequently used methods of libxml2 in a class and invoke xmlFree() to free the pointers from libxml2 in destructor. It solves the memory leak problem caused by libxml2.</li>
 	<li class="work">Refactor existing code using factory method and singleton pattern.</li>
